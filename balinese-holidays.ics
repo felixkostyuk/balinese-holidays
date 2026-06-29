@@ -1,0 +1,227 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bali Festivals//Felix//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bali Festivals & Holidays
+X-WR-CALDESC:Balinese ceremonies and Indonesian public holidays, with notes on where it is most beautiful. Curated edition. 2027 national/Islamic dates are predictions and may shift by government decree.
+X-WR-TIMEZONE:Asia/Makassar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pengerupukan-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:Ogoh-ogoh Parade (Pengerupukan) — Nyepi Eve
+DESCRIPTION:The most photogenic night of the year. Villages parade giant demon effigies (ogoh-ogoh) built over weeks\, then burn them to drive out evil before the Day of Silence.\n\nBest viewing: Denpasar (Catur Muka crossing) for scale\, Ubud for craft\, your own banjar for intimacy. Go early evening — expect road closures and crowds.
+LOCATION:Across Bali (Denpasar\, Ubud)
+END:VEVENT
+BEGIN:VEVENT
+UID:nyepi-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:Nyepi — Balinese Day of Silence (New Year)
+DESCRIPTION:The island shuts down for 24h: no flights\, no lights\, no going outside — even for tourists. Airport closed. Stay in your villa or hotel with meals sorted in advance.\n\nThe payoff: at night\, with every light off island-wide\, the stars are extraordinary.
+LOCATION:All of Bali
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-fitr-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260323
+SUMMARY:Eid al-Fitr (Idul Fitri) — Public Holiday
+DESCRIPTION:National holiday period (approx 20–22 March). Falls right after Nyepi this year. Banks and government offices close\, domestic flights and ferries fill up. Date may shift +/- a day by government decree.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:good-friday-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:Good Friday (Public Holiday)
+DESCRIPTION:National public holiday. Quiet day\, minimal impact on travel.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:labour-day-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Labour Day (Public Holiday)
+DESCRIPTION:National public holiday.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:ascension-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+SUMMARY:Ascension Day of Jesus (Public Holiday)
+DESCRIPTION:National public holiday. Often creates a long weekend — expect busier roads and beaches.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-adha-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Eid al-Adha (Idul Adha) — Public Holiday
+DESCRIPTION:National holiday. Date may shift +/- a day by government decree.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:waisak-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Waisak (Vesak) Day — Public Holiday
+DESCRIPTION:Buddhist holiday marking the birth\, enlightenment and death of Buddha. Low-key in Bali\; the grand celebration is at Borobudur in Java.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:pancasila-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Pancasila Day (Public Holiday)
+DESCRIPTION:National public holiday honouring Indonesia's founding philosophy.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:Islamic New Year (1 Muharram) — Public Holiday
+DESCRIPTION:National public holiday. Coincides with Penampahan Galungan this year. Date may shift by government decree.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:penampahan-galungan-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:Penampahan Galungan — Preparation Day
+DESCRIPTION:Families raise penjor (tall decorated bamboo poles)\, make lawar\, and ready offerings. Streets fill with penjor through the evening — golden hour the day before Galungan is prime for photos and FPV.
+LOCATION:Villages across Bali
+END:VEVENT
+BEGIN:VEVENT
+UID:galungan-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+SUMMARY:Galungan — Victory of Good over Evil
+DESCRIPTION:Bali's homecoming festival — ancestral spirits return to family homes\, dharma triumphs over adharma. Penjor line every street.\n\nThis is a village and temple event\, not a beach-club one. Densest and most beautiful: Ubud\, Sidemen\, Gianyar. Dress respectfully (sarong + sash) near temples.\n\nNote: 2026 has only ONE Galungan all year — rare.
+LOCATION:Ubud\, Sidemen\, Gianyar
+END:VEVENT
+BEGIN:VEVENT
+UID:kuningan-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:Kuningan — Spirits Return to the Heavens
+DESCRIPTION:Closing of the Galungan cycle. Yellow dominates: nasi kuning offerings and tamiang coconut-leaf shields. Ceremonies wrap by midday — go in the morning. Quieter and more tender than Galungan day.
+LOCATION:Temples across Bali
+END:VEVENT
+BEGIN:VEVENT
+UID:umanis-kuningan-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Umanis Kuningan — The Day After
+DESCRIPTION:The relaxed day after. Families visit scenic spots and water temples. A calm day to photograph temple life without the peak-day intensity.
+LOCATION:Water temples (Tirta Empul\, Ulun Danu Beratan)
+END:VEVENT
+BEGIN:VEVENT
+UID:independence-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+SUMMARY:Indonesian Independence Day (Merdeka)
+DESCRIPTION:National holiday. Flag ceremonies\, village games (panjat pinang — greased-pole climbing)\, red-and-white everywhere. Expect heavier traffic and busier domestic flights.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-2026@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day (Public Holiday)
+DESCRIPTION:National public holiday. Peak tourist season begins — book everything early\, beaches and Ubud get crowded.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:new-year-2027@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year's Day (Public Holiday)
+DESCRIPTION:National public holiday. Peak season — Canggu\, Seminyak and Uluwatu are packed.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:penampahan-galungan-2027a@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Penampahan Galungan — Preparation Day
+DESCRIPTION:Prep day before Galungan. Penjor go up across villages through the evening — best light for photos the day before.
+LOCATION:Villages across Bali
+END:VEVENT
+BEGIN:VEVENT
+UID:galungan-2027a@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Galungan — Victory of Good over Evil
+DESCRIPTION:Bali's homecoming festival. Penjor line every street\; richest in Ubud\, Sidemen\, Gianyar. Dress respectfully near temples.\n\nNote: 2027 has TWO Galungan — this one in January and another on 11 August.
+LOCATION:Ubud\, Sidemen\, Gianyar
+END:VEVENT
+BEGIN:VEVENT
+UID:kuningan-2027a@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Kuningan — Spirits Return to the Heavens
+DESCRIPTION:Closing of the Galungan cycle. Yellow offerings and tamiang decorations. Ceremonies wrap by midday — go in the morning.
+LOCATION:Temples across Bali
+END:VEVENT
+BEGIN:VEVENT
+UID:umanis-kuningan-2027a@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Umanis Kuningan — The Day After
+DESCRIPTION:The relaxed day after Kuningan. Good for calm temple photography.
+LOCATION:Water temples (Tirta Empul\, Ulun Danu Beratan)
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-2027@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Chinese New Year (Imlek) — Public Holiday
+DESCRIPTION:National public holiday\, Year of the Goat. Most visible at Chinese temples (klenteng)\, e.g. in Denpasar. Date is fixed by the lunar calendar.
+LOCATION:All of Indonesia
+END:VEVENT
+BEGIN:VEVENT
+UID:pengerupukan-2027@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Ogoh-ogoh Parade (Pengerupukan) — Nyepi Eve
+DESCRIPTION:The big ogoh-ogoh night before Nyepi. Giant demon effigies paraded and burned. Best: Denpasar for scale\, Ubud for craft. Go early evening\, expect road closures.
+LOCATION:Across Bali (Denpasar\, Ubud)
+END:VEVENT
+BEGIN:VEVENT
+UID:nyepi-2027@bali-festivals
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Nyepi — Balinese Day of Silence (New Year)
+DESCRIPTION:The island shuts down for 24h: no flights\, no lights\, no going outside. Airport closed. Stay in with meals sorted. Brilliant stars at night with all lights off.
+LOCATION:All of Bali
+END:VEVENT
+END:VCALENDAR
