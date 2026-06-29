@@ -1,227 +1,758 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Bali Festivals//Felix//EN
+PRODID:-//Bali Festivals RU//Felix//RU
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Bali Festivals & Holidays
-X-WR-CALDESC:Balinese ceremonies and Indonesian public holidays, with notes on where it is most beautiful. Curated edition. 2027 national/Islamic dates are predictions and may shift by government decree.
+X-WR-CALNAME:Балийские праздники
+X-WR-CALDESC:Балийские церемонии 2026–2028 с заметками где красивее. Даты рассчитаны по календарям павукон и сака. Кураторская версия.
 X-WR-TIMEZONE:Asia/Makassar
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pengerupukan-2026@bali-festivals
+UID:tumpek-krulut-20260103@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+SUMMARY:Тумпек Крулут — день гамелана и инструментов
+DESCRIPTION:День музыки\, гамелана и искусства (а ещё любви). Инструменты благословляют и играют на них — твоя тема. Лучше всего в деревнях с сильной музыкальной традицией.
+LOCATION:Деревни с гамеланом
+END:VEVENT
+BEGIN:VEVENT
+UID:siwaratri-20260117@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+SUMMARY:Сиваратри — ночь Шивы
+DESCRIPTION:Ночь Шивы: бдение\, медитация и пост всю ночь ради очищения от грехов. Тихое внутреннее событие\, не зрелище — но особое по силе.
+LOCATION:Храмы\, дома
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-uye-20260207@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260207
+DTEND;VALUE=DATE:20260208
+SUMMARY:Тумпек Канданг — благословение животных
+DESCRIPTION:День животных. Коров\, свиней и птицу моют\, украшают и благословляют. Тёплый\, фотогеничный деревенский день.
+LOCATION:Деревни по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-wayang-20260314@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:Тумпек Ваянг — день театра теней
+DESCRIPTION:День кукол ваянг и театра теней. Считается особым днём\; рождённых в этот день очищают. Иногда показывают ваянг-кулит.
+LOCATION:Деревни\, храмы
+END:VEVENT
+BEGIN:VEVENT
+UID:melasti-20260316@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:Меласти — очищение на пляжах
+DESCRIPTION:Процессии очищения к морю и источникам перед Ньепи. Деревни в белом несут священные предметы храма к воде. Один из самых фотогеничных дней года — пляжи Санур\, Кетеван\, Пурнама\, Масчети. Точная дата зависит от региона (за 2–4 дня до Ньепи)\, сверь локально.
+LOCATION:Пляжи Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:ogoh-ogoh-20260318@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20260318
 DTEND;VALUE=DATE:20260319
-SUMMARY:Ogoh-ogoh Parade (Pengerupukan) — Nyepi Eve
-DESCRIPTION:The most photogenic night of the year. Villages parade giant demon effigies (ogoh-ogoh) built over weeks\, then burn them to drive out evil before the Day of Silence.\n\nBest viewing: Denpasar (Catur Muka crossing) for scale\, Ubud for craft\, your own banjar for intimacy. Go early evening — expect road closures and crowds.
-LOCATION:Across Bali (Denpasar\, Ubud)
+SUMMARY:Огох-огох (Пенгерупукан) — канун Ньепи
+DESCRIPTION:Канун Ньепи и Тавур Касанга. Деревни проносят и сжигают гигантских демонов-огох-огох\, чтобы изгнать зло перед Днём тишины. Самое зрелищное ночное событие года. Масштаб — Денпасар (перекрёсток Чатур Мука)\, ремесло — Убуд. Приходи к вечеру\, дороги перекрывают.
+LOCATION:Денпасар\, Убуд
 END:VEVENT
 BEGIN:VEVENT
-UID:nyepi-2026@bali-festivals
+UID:nyepi-20260319@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-SUMMARY:Nyepi — Balinese Day of Silence (New Year)
-DESCRIPTION:The island shuts down for 24h: no flights\, no lights\, no going outside — even for tourists. Airport closed. Stay in your villa or hotel with meals sorted in advance.\n\nThe payoff: at night\, with every light off island-wide\, the stars are extraordinary.
-LOCATION:All of Bali
+SUMMARY:Ньепи — День тишины (Новый год)
+DESCRIPTION:День тишины\, балийский Новый год по сака. Остров замирает на 24 часа: нет рейсов\, света\, выхода на улицу — даже туристам. Аэропорт закрыт. Сиди на вилле с заранее купленной едой. Ночью при полной темноте — невероятные звёзды. Точную дату на год закрепляют официальным декретом (SKB) ближе к делу\; изредка она сдвигается на сутки от расчёта.
+LOCATION:Весь Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:eid-fitr-2026@bali-festivals
+UID:ngembak-geni-20260320@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20260320
-DTEND;VALUE=DATE:20260323
-SUMMARY:Eid al-Fitr (Idul Fitri) — Public Holiday
-DESCRIPTION:National holiday period (approx 20–22 March). Falls right after Nyepi this year. Banks and government offices close\, domestic flights and ferries fill up. Date may shift +/- a day by government decree.
-LOCATION:All of Indonesia
+DTEND;VALUE=DATE:20260321
+SUMMARY:Нгембак Гени — день после Ньепи
+DESCRIPTION:Остров оживает после Дня тишины: семьи навещают друг друга\, прощают обиды\, молодёжь устраивает омед-омедан (поцелуйный ритуал) в Сесетане\, Денпасар. Спокойный светлый день.
+LOCATION:По всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:good-friday-2026@bali-festivals
+UID:besakih-turun-kabeh-20260402@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260403
-DTEND;VALUE=DATE:20260404
-SUMMARY:Good Friday (Public Holiday)
-DESCRIPTION:National public holiday. Quiet day\, minimal impact on travel.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:Бхатара Турун Кабех — Бесаких (Пурнама Кадаса)
+DESCRIPTION:Полнолуние 10-го месяца. Бхатара Турун Кабех в Бесаких — крупнейшая церемония материнского храма у подножия Агунга\, тысячи паломников в белом. Главное событие храмового календаря.
+LOCATION:Пура Бесаких
 END:VEVENT
 BEGIN:VEVENT
-UID:labour-day-2026@bali-festivals
+UID:saraswati-20260404@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260501
-DTEND;VALUE=DATE:20260502
-SUMMARY:Labour Day (Public Holiday)
-DESCRIPTION:National public holiday.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:Сарасвати — день богини знания
+DESCRIPTION:День богини знания Сарасвати. Благословляют книги и священные тексты\, читать в этот день не принято. Церемонии в школах и храмах\, все в ярких кебая — хорошо для портрета.
+LOCATION:По всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:ascension-2026@bali-festivals
+UID:banyu-pinaruh-20260405@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260514
-DTEND;VALUE=DATE:20260515
-SUMMARY:Ascension Day of Jesus (Public Holiday)
-DESCRIPTION:National public holiday. Often creates a long weekend — expect busier roads and beaches.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:Баньу Пинарух
+DESCRIPTION:Утро после Сарасвати. На рассвете ритуальное омовение в море и источниках\, пьют джаму для очищения тела и ума. Лучшее время — самый ранний свет на восточных пляжах.
+LOCATION:Пляжи\, источники
 END:VEVENT
 BEGIN:VEVENT
-UID:eid-adha-2026@bali-festivals
+UID:pagerwesi-20260408@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260527
-DTEND;VALUE=DATE:20260528
-SUMMARY:Eid al-Adha (Idul Adha) — Public Holiday
-DESCRIPTION:National holiday. Date may shift +/- a day by government decree.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260408
+DTEND;VALUE=DATE:20260409
+SUMMARY:Пагервеси — день духовной защиты
+DESCRIPTION:«Железная ограда» — день духовной защиты и укрепления знания. Особенно мощно на севере\, в Булеленге (Сингараджа)\, где это один из крупнейших праздников года с большими процессиями.
+LOCATION:Север Бали (Булеленг)
 END:VEVENT
 BEGIN:VEVENT
-UID:waisak-2026@bali-festivals
+UID:tumpek-landep-20260418@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260531
-DTEND;VALUE=DATE:20260601
-SUMMARY:Waisak (Vesak) Day — Public Holiday
-DESCRIPTION:Buddhist holiday marking the birth\, enlightenment and death of Buddha. Low-key in Bali\; the grand celebration is at Borobudur in Java.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:Тумпек Ландеп — благословение металла
+DESCRIPTION:Раньше благословляли крисы и оружие\, теперь машины и байки. Транспорт украшают подношениями из пальмовых листьев — живое\, визуально яркое.
+LOCATION:По всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:pancasila-2026@bali-festivals
+UID:tumpek-wariga-20260523@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260601
-DTEND;VALUE=DATE:20260602
-SUMMARY:Pancasila Day (Public Holiday)
-DESCRIPTION:National public holiday honouring Indonesia's founding philosophy.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:Тумпек Уду — благословение растений
+DESCRIPTION:Тумпек Уду (Пенгатаг) — день деревьев и растений. Подношения у плодовых деревьев\, к стволам привязывают ткани и кладут еду\, прося плодородия.
+LOCATION:Сады\, рисовые поля
 END:VEVENT
 BEGIN:VEVENT
-UID:islamic-new-year-2026@bali-festivals
-DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260616
-DTEND;VALUE=DATE:20260617
-SUMMARY:Islamic New Year (1 Muharram) — Public Holiday
-DESCRIPTION:National public holiday. Coincides with Penampahan Galungan this year. Date may shift by government decree.
-LOCATION:All of Indonesia
-END:VEVENT
-BEGIN:VEVENT
-UID:penampahan-galungan-2026@bali-festivals
+UID:penampahan-galungan-20260616@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
-SUMMARY:Penampahan Galungan — Preparation Day
-DESCRIPTION:Families raise penjor (tall decorated bamboo poles)\, make lawar\, and ready offerings. Streets fill with penjor through the evening — golden hour the day before Galungan is prime for photos and FPV.
-LOCATION:Villages across Bali
+SUMMARY:Пенампахан Галунган — день подготовки
+DESCRIPTION:Канун Галунгана. Семьи ставят пенджоры (высокие бамбуковые шесты)\, готовят лавар и подношения. К вечеру улицы заполняются пенджорами — золотой час накануне идеален для съёмки.
+LOCATION:Деревни по всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:galungan-2026@bali-festivals
+UID:galungan-20260617@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
-SUMMARY:Galungan — Victory of Good over Evil
-DESCRIPTION:Bali's homecoming festival — ancestral spirits return to family homes\, dharma triumphs over adharma. Penjor line every street.\n\nThis is a village and temple event\, not a beach-club one. Densest and most beautiful: Ubud\, Sidemen\, Gianyar. Dress respectfully (sarong + sash) near temples.\n\nNote: 2026 has only ONE Galungan all year — rare.
-LOCATION:Ubud\, Sidemen\, Gianyar
+SUMMARY:Галунган — победа добра над злом
+DESCRIPTION:Главный праздник Бали: духи предков возвращаются в дома\, дхарма побеждает адхарму. Пенджоры вдоль каждой улицы. Это деревенское и храмовое событие\, не для бич-клабов. Гуще и красивее всего: Убуд\, Сидемен\, Гианьяр. У храмов — саронг и пояс.
+LOCATION:Убуд\, Сидемен\, Гианьяр
 END:VEVENT
 BEGIN:VEVENT
-UID:kuningan-2026@bali-festivals
+UID:kuningan-20260627@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260628
-SUMMARY:Kuningan — Spirits Return to the Heavens
-DESCRIPTION:Closing of the Galungan cycle. Yellow dominates: nasi kuning offerings and tamiang coconut-leaf shields. Ceremonies wrap by midday — go in the morning. Quieter and more tender than Galungan day.
-LOCATION:Temples across Bali
+SUMMARY:Кунинган — проводы духов предков
+DESCRIPTION:Закрытие цикла Галунгана: духи возвращаются на небеса. Доминирует жёлтый: жёлтый рис насси кунинг\, щиты тамианг из кокосовых листьев. Церемонии завершают до полудня — иди утром. Тише и нежнее самого Галунгана. В этот же день — Тумпек Кунинган.
+LOCATION:Храмы по всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:umanis-kuningan-2026@bali-festivals
+UID:odalan-uluwatu-20260707@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260628
-DTEND;VALUE=DATE:20260629
-SUMMARY:Umanis Kuningan — The Day After
-DESCRIPTION:The relaxed day after. Families visit scenic spots and water temples. A calm day to photograph temple life without the peak-day intensity.
-LOCATION:Water temples (Tirta Empul\, Ulun Danu Beratan)
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Пиодалан Пура Лухур Улувату
+DESCRIPTION:Годовщина храма Улувату на утёсе (цикл 210 дней\, Анггара Каси Медангсиа). Закатный кечак и церемония над океаном. Дату сверь локально перед поездкой.
+LOCATION:Пура Лухур Улувату
 END:VEVENT
 BEGIN:VEVENT
-UID:independence-2026@bali-festivals
+UID:tumpek-krulut-20260801@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260818
-SUMMARY:Indonesian Independence Day (Merdeka)
-DESCRIPTION:National holiday. Flag ceremonies\, village games (panjat pinang — greased-pole climbing)\, red-and-white everywhere. Expect heavier traffic and busier domestic flights.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Тумпек Крулут — день гамелана и инструментов
+DESCRIPTION:День музыки\, гамелана и искусства (а ещё любви). Инструменты благословляют и играют на них — твоя тема. Лучше всего в деревнях с сильной музыкальной традицией.
+LOCATION:Деревни с гамеланом
 END:VEVENT
 BEGIN:VEVENT
-UID:christmas-2026@bali-festivals
+UID:tumpek-uye-20260905@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20261225
-DTEND;VALUE=DATE:20261226
-SUMMARY:Christmas Day (Public Holiday)
-DESCRIPTION:National public holiday. Peak tourist season begins — book everything early\, beaches and Ubud get crowded.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Тумпек Канданг — благословение животных
+DESCRIPTION:День животных. Коров\, свиней и птицу моют\, украшают и благословляют. Тёплый\, фотогеничный деревенский день.
+LOCATION:Деревни по всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:new-year-2027@bali-festivals
+UID:purnama-kapat-20260926@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20270101
-DTEND;VALUE=DATE:20270102
-SUMMARY:New Year's Day (Public Holiday)
-DESCRIPTION:National public holiday. Peak season — Canggu\, Seminyak and Uluwatu are packed.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Пурнама Капат — большое полнолуние
+DESCRIPTION:Полнолуние 4-го месяца (Капат)\, одно из главных в году. Множество одаланов\, храмы особенно полны. Капат считается чистым\, благоприятным месяцем.
+LOCATION:Храмы по всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:penampahan-galungan-2027a@bali-festivals
+UID:tumpek-wayang-20261010@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Тумпек Ваянг — день театра теней
+DESCRIPTION:День кукол ваянг и театра теней. Считается особым днём\; рождённых в этот день очищают. Иногда показывают ваянг-кулит.
+LOCATION:Деревни\, храмы
+END:VEVENT
+BEGIN:VEVENT
+UID:saraswati-20261031@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Сарасвати — день богини знания
+DESCRIPTION:День богини знания Сарасвати. Благословляют книги и священные тексты\, читать в этот день не принято. Церемонии в школах и храмах\, все в ярких кебая — хорошо для портрета.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:banyu-pinaruh-20261101@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Баньу Пинарух
+DESCRIPTION:Утро после Сарасвати. На рассвете ритуальное омовение в море и источниках\, пьют джаму для очищения тела и ума. Лучшее время — самый ранний свет на восточных пляжах.
+LOCATION:Пляжи\, источники
+END:VEVENT
+BEGIN:VEVENT
+UID:pagerwesi-20261104@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Пагервеси — день духовной защиты
+DESCRIPTION:«Железная ограда» — день духовной защиты и укрепления знания. Особенно мощно на севере\, в Булеленге (Сингараджа)\, где это один из крупнейших праздников года с большими процессиями.
+LOCATION:Север Бали (Булеленг)
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-landep-20261114@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Тумпек Ландеп — благословение металла
+DESCRIPTION:Раньше благословляли крисы и оружие\, теперь машины и байки. Транспорт украшают подношениями из пальмовых листьев — живое\, визуально яркое.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-wariga-20261219@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Тумпек Уду — благословение растений
+DESCRIPTION:Тумпек Уду (Пенгатаг) — день деревьев и растений. Подношения у плодовых деревьев\, к стволам привязывают ткани и кладут еду\, прося плодородия.
+LOCATION:Сады\, рисовые поля
+END:VEVENT
+BEGIN:VEVENT
+UID:siwaratri-20270106@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Сиваратри — ночь Шивы
+DESCRIPTION:Ночь Шивы: бдение\, медитация и пост всю ночь ради очищения от грехов. Тихое внутреннее событие\, не зрелище — но особое по силе.
+LOCATION:Храмы\, дома
+END:VEVENT
+BEGIN:VEVENT
+UID:penampahan-galungan-20270112@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
-SUMMARY:Penampahan Galungan — Preparation Day
-DESCRIPTION:Prep day before Galungan. Penjor go up across villages through the evening — best light for photos the day before.
-LOCATION:Villages across Bali
+SUMMARY:Пенампахан Галунган — день подготовки
+DESCRIPTION:Канун Галунгана. Семьи ставят пенджоры (высокие бамбуковые шесты)\, готовят лавар и подношения. К вечеру улицы заполняются пенджорами — золотой час накануне идеален для съёмки.
+LOCATION:Деревни по всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:galungan-2027a@bali-festivals
+UID:galungan-20270113@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
-SUMMARY:Galungan — Victory of Good over Evil
-DESCRIPTION:Bali's homecoming festival. Penjor line every street\; richest in Ubud\, Sidemen\, Gianyar. Dress respectfully near temples.\n\nNote: 2027 has TWO Galungan — this one in January and another on 11 August.
-LOCATION:Ubud\, Sidemen\, Gianyar
+SUMMARY:Галунган — победа добра над злом
+DESCRIPTION:Главный праздник Бали: духи предков возвращаются в дома\, дхарма побеждает адхарму. Пенджоры вдоль каждой улицы. Это деревенское и храмовое событие\, не для бич-клабов. Гуще и красивее всего: Убуд\, Сидемен\, Гианьяр. У храмов — саронг и пояс.
+LOCATION:Убуд\, Сидемен\, Гианьяр
 END:VEVENT
 BEGIN:VEVENT
-UID:kuningan-2027a@bali-festivals
+UID:kuningan-20270123@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:Kuningan — Spirits Return to the Heavens
-DESCRIPTION:Closing of the Galungan cycle. Yellow offerings and tamiang decorations. Ceremonies wrap by midday — go in the morning.
-LOCATION:Temples across Bali
+SUMMARY:Кунинган — проводы духов предков
+DESCRIPTION:Закрытие цикла Галунгана: духи возвращаются на небеса. Доминирует жёлтый: жёлтый рис насси кунинг\, щиты тамианг из кокосовых листьев. Церемонии завершают до полудня — иди утром. Тише и нежнее самого Галунгана. В этот же день — Тумпек Кунинган.
+LOCATION:Храмы по всему Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:umanis-kuningan-2027a@bali-festivals
+UID:odalan-uluwatu-20270202@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20270124
-DTEND;VALUE=DATE:20270125
-SUMMARY:Umanis Kuningan — The Day After
-DESCRIPTION:The relaxed day after Kuningan. Good for calm temple photography.
-LOCATION:Water temples (Tirta Empul\, Ulun Danu Beratan)
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Пиодалан Пура Лухур Улувату
+DESCRIPTION:Годовщина храма Улувату на утёсе (цикл 210 дней\, Анггара Каси Медангсиа). Закатный кечак и церемония над океаном. Дату сверь локально перед поездкой.
+LOCATION:Пура Лухур Улувату
 END:VEVENT
 BEGIN:VEVENT
-UID:chinese-new-year-2027@bali-festivals
+UID:tumpek-krulut-20270227@bali-ru
 DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20270206
-DTEND;VALUE=DATE:20270207
-SUMMARY:Chinese New Year (Imlek) — Public Holiday
-DESCRIPTION:National public holiday\, Year of the Goat. Most visible at Chinese temples (klenteng)\, e.g. in Denpasar. Date is fixed by the lunar calendar.
-LOCATION:All of Indonesia
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Тумпек Крулут — день гамелана и инструментов
+DESCRIPTION:День музыки\, гамелана и искусства (а ещё любви). Инструменты благословляют и играют на них — твоя тема. Лучше всего в деревнях с сильной музыкальной традицией.
+LOCATION:Деревни с гамеланом
 END:VEVENT
 BEGIN:VEVENT
-UID:pengerupukan-2027@bali-festivals
+UID:melasti-20270305@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Меласти — очищение на пляжах
+DESCRIPTION:Процессии очищения к морю и источникам перед Ньепи. Деревни в белом несут священные предметы храма к воде. Один из самых фотогеничных дней года — пляжи Санур\, Кетеван\, Пурнама\, Масчети. Точная дата зависит от региона (за 2–4 дня до Ньепи)\, сверь локально.
+LOCATION:Пляжи Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:ogoh-ogoh-20270307@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Огох-огох (Пенгерупукан) — канун Ньепи
+DESCRIPTION:Канун Ньепи и Тавур Касанга. Деревни проносят и сжигают гигантских демонов-огох-огох\, чтобы изгнать зло перед Днём тишины. Самое зрелищное ночное событие года. Масштаб — Денпасар (перекрёсток Чатур Мука)\, ремесло — Убуд. Приходи к вечеру\, дороги перекрывают.
+LOCATION:Денпасар\, Убуд
+END:VEVENT
+BEGIN:VEVENT
+UID:nyepi-20270308@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
-SUMMARY:Ogoh-ogoh Parade (Pengerupukan) — Nyepi Eve
-DESCRIPTION:The big ogoh-ogoh night before Nyepi. Giant demon effigies paraded and burned. Best: Denpasar for scale\, Ubud for craft. Go early evening\, expect road closures.
-LOCATION:Across Bali (Denpasar\, Ubud)
+SUMMARY:Ньепи — День тишины (Новый год)
+DESCRIPTION:День тишины\, балийский Новый год по сака. Остров замирает на 24 часа: нет рейсов\, света\, выхода на улицу — даже туристам. Аэропорт закрыт. Сиди на вилле с заранее купленной едой. Ночью при полной темноте — невероятные звёзды. Точную дату на год закрепляют официальным декретом (SKB) ближе к делу\; изредка она сдвигается на сутки от расчёта.
+LOCATION:Весь Бали
 END:VEVENT
 BEGIN:VEVENT
-UID:nyepi-2027@bali-festivals
+UID:ngembak-geni-20270309@bali-ru
 DTSTAMP:20260629T000000Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
-SUMMARY:Nyepi — Balinese Day of Silence (New Year)
-DESCRIPTION:The island shuts down for 24h: no flights\, no lights\, no going outside. Airport closed. Stay in with meals sorted. Brilliant stars at night with all lights off.
-LOCATION:All of Bali
+SUMMARY:Нгембак Гени — день после Ньепи
+DESCRIPTION:Остров оживает после Дня тишины: семьи навещают друг друга\, прощают обиды\, молодёжь устраивает омед-омедан (поцелуйный ритуал) в Сесетане\, Денпасар. Спокойный светлый день.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:besakih-turun-kabeh-20270322@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Бхатара Турун Кабех — Бесаких (Пурнама Кадаса)
+DESCRIPTION:Полнолуние 10-го месяца. Бхатара Турун Кабех в Бесаких — крупнейшая церемония материнского храма у подножия Агунга\, тысячи паломников в белом. Главное событие храмового календаря.
+LOCATION:Пура Бесаких
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-uye-20270403@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Тумпек Канданг — благословение животных
+DESCRIPTION:День животных. Коров\, свиней и птицу моют\, украшают и благословляют. Тёплый\, фотогеничный деревенский день.
+LOCATION:Деревни по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-wayang-20270508@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Тумпек Ваянг — день театра теней
+DESCRIPTION:День кукол ваянг и театра теней. Считается особым днём\; рождённых в этот день очищают. Иногда показывают ваянг-кулит.
+LOCATION:Деревни\, храмы
+END:VEVENT
+BEGIN:VEVENT
+UID:saraswati-20270529@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:Сарасвати — день богини знания
+DESCRIPTION:День богини знания Сарасвати. Благословляют книги и священные тексты\, читать в этот день не принято. Церемонии в школах и храмах\, все в ярких кебая — хорошо для портрета.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:banyu-pinaruh-20270530@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Баньу Пинарух
+DESCRIPTION:Утро после Сарасвати. На рассвете ритуальное омовение в море и источниках\, пьют джаму для очищения тела и ума. Лучшее время — самый ранний свет на восточных пляжах.
+LOCATION:Пляжи\, источники
+END:VEVENT
+BEGIN:VEVENT
+UID:pagerwesi-20270602@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:Пагервеси — день духовной защиты
+DESCRIPTION:«Железная ограда» — день духовной защиты и укрепления знания. Особенно мощно на севере\, в Булеленге (Сингараджа)\, где это один из крупнейших праздников года с большими процессиями.
+LOCATION:Север Бали (Булеленг)
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-landep-20270612@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Тумпек Ландеп — благословение металла
+DESCRIPTION:Раньше благословляли крисы и оружие\, теперь машины и байки. Транспорт украшают подношениями из пальмовых листьев — живое\, визуально яркое.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-wariga-20270717@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:Тумпек Уду — благословение растений
+DESCRIPTION:Тумпек Уду (Пенгатаг) — день деревьев и растений. Подношения у плодовых деревьев\, к стволам привязывают ткани и кладут еду\, прося плодородия.
+LOCATION:Сады\, рисовые поля
+END:VEVENT
+BEGIN:VEVENT
+UID:penampahan-galungan-20270810@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:Пенампахан Галунган — день подготовки
+DESCRIPTION:Канун Галунгана. Семьи ставят пенджоры (высокие бамбуковые шесты)\, готовят лавар и подношения. К вечеру улицы заполняются пенджорами — золотой час накануне идеален для съёмки.
+LOCATION:Деревни по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:galungan-20270811@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:Галунган — победа добра над злом
+DESCRIPTION:Главный праздник Бали: духи предков возвращаются в дома\, дхарма побеждает адхарму. Пенджоры вдоль каждой улицы. Это деревенское и храмовое событие\, не для бич-клабов. Гуще и красивее всего: Убуд\, Сидемен\, Гианьяр. У храмов — саронг и пояс.
+LOCATION:Убуд\, Сидемен\, Гианьяр
+END:VEVENT
+BEGIN:VEVENT
+UID:kuningan-20270821@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:Кунинган — проводы духов предков
+DESCRIPTION:Закрытие цикла Галунгана: духи возвращаются на небеса. Доминирует жёлтый: жёлтый рис насси кунинг\, щиты тамианг из кокосовых листьев. Церемонии завершают до полудня — иди утром. Тише и нежнее самого Галунгана. В этот же день — Тумпек Кунинган.
+LOCATION:Храмы по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:odalan-uluwatu-20270831@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:Пиодалан Пура Лухур Улувату
+DESCRIPTION:Годовщина храма Улувату на утёсе (цикл 210 дней\, Анггара Каси Медангсиа). Закатный кечак и церемония над океаном. Дату сверь локально перед поездкой.
+LOCATION:Пура Лухур Улувату
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-krulut-20270925@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:Тумпек Крулут — день гамелана и инструментов
+DESCRIPTION:День музыки\, гамелана и искусства (а ещё любви). Инструменты благословляют и играют на них — твоя тема. Лучше всего в деревнях с сильной музыкальной традицией.
+LOCATION:Деревни с гамеланом
+END:VEVENT
+BEGIN:VEVENT
+UID:purnama-kapat-20271015@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Пурнама Капат — большое полнолуние
+DESCRIPTION:Полнолуние 4-го месяца (Капат)\, одно из главных в году. Множество одаланов\, храмы особенно полны. Капат считается чистым\, благоприятным месяцем.
+LOCATION:Храмы по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-uye-20271030@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
+SUMMARY:Тумпек Канданг — благословение животных
+DESCRIPTION:День животных. Коров\, свиней и птицу моют\, украшают и благословляют. Тёплый\, фотогеничный деревенский день.
+LOCATION:Деревни по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-wayang-20271204@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20271204
+DTEND;VALUE=DATE:20271205
+SUMMARY:Тумпек Ваянг — день театра теней
+DESCRIPTION:День кукол ваянг и театра теней. Считается особым днём\; рождённых в этот день очищают. Иногда показывают ваянг-кулит.
+LOCATION:Деревни\, храмы
+END:VEVENT
+BEGIN:VEVENT
+UID:saraswati-20271225@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+SUMMARY:Сарасвати — день богини знания
+DESCRIPTION:День богини знания Сарасвати. Благословляют книги и священные тексты\, читать в этот день не принято. Церемонии в школах и храмах\, все в ярких кебая — хорошо для портрета.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:banyu-pinaruh-20271226@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20271226
+DTEND;VALUE=DATE:20271227
+SUMMARY:Баньу Пинарух
+DESCRIPTION:Утро после Сарасвати. На рассвете ритуальное омовение в море и источниках\, пьют джаму для очищения тела и ума. Лучшее время — самый ранний свет на восточных пляжах.
+LOCATION:Пляжи\, источники
+END:VEVENT
+BEGIN:VEVENT
+UID:pagerwesi-20271229@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20271229
+DTEND;VALUE=DATE:20271230
+SUMMARY:Пагервеси — день духовной защиты
+DESCRIPTION:«Железная ограда» — день духовной защиты и укрепления знания. Особенно мощно на севере\, в Булеленге (Сингараджа)\, где это один из крупнейших праздников года с большими процессиями.
+LOCATION:Север Бали (Булеленг)
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-landep-20280108@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280108
+DTEND;VALUE=DATE:20280109
+SUMMARY:Тумпек Ландеп — благословение металла
+DESCRIPTION:Раньше благословляли крисы и оружие\, теперь машины и байки. Транспорт украшают подношениями из пальмовых листьев — живое\, визуально яркое.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:siwaratri-20280125@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280125
+DTEND;VALUE=DATE:20280126
+SUMMARY:Сиваратри — ночь Шивы
+DESCRIPTION:Ночь Шивы: бдение\, медитация и пост всю ночь ради очищения от грехов. Тихое внутреннее событие\, не зрелище — но особое по силе.
+LOCATION:Храмы\, дома
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-wariga-20280212@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280212
+DTEND;VALUE=DATE:20280213
+SUMMARY:Тумпек Уду — благословение растений
+DESCRIPTION:Тумпек Уду (Пенгатаг) — день деревьев и растений. Подношения у плодовых деревьев\, к стволам привязывают ткани и кладут еду\, прося плодородия.
+LOCATION:Сады\, рисовые поля
+END:VEVENT
+BEGIN:VEVENT
+UID:penampahan-galungan-20280307@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280308
+SUMMARY:Пенампахан Галунган — день подготовки
+DESCRIPTION:Канун Галунгана. Семьи ставят пенджоры (высокие бамбуковые шесты)\, готовят лавар и подношения. К вечеру улицы заполняются пенджорами — золотой час накануне идеален для съёмки.
+LOCATION:Деревни по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:galungan-20280308@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280308
+DTEND;VALUE=DATE:20280309
+SUMMARY:Галунган — победа добра над злом
+DESCRIPTION:Главный праздник Бали: духи предков возвращаются в дома\, дхарма побеждает адхарму. Пенджоры вдоль каждой улицы. Это деревенское и храмовое событие\, не для бич-клабов. Гуще и красивее всего: Убуд\, Сидемен\, Гианьяр. У храмов — саронг и пояс.
+LOCATION:Убуд\, Сидемен\, Гианьяр
+END:VEVENT
+BEGIN:VEVENT
+UID:kuningan-20280318@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280318
+DTEND;VALUE=DATE:20280319
+SUMMARY:Кунинган — проводы духов предков
+DESCRIPTION:Закрытие цикла Галунгана: духи возвращаются на небеса. Доминирует жёлтый: жёлтый рис насси кунинг\, щиты тамианг из кокосовых листьев. Церемонии завершают до полудня — иди утром. Тише и нежнее самого Галунгана. В этот же день — Тумпек Кунинган.
+LOCATION:Храмы по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:melasti-20280323@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280323
+DTEND;VALUE=DATE:20280324
+SUMMARY:Меласти — очищение на пляжах
+DESCRIPTION:Процессии очищения к морю и источникам перед Ньепи. Деревни в белом несут священные предметы храма к воде. Один из самых фотогеничных дней года — пляжи Санур\, Кетеван\, Пурнама\, Масчети. Точная дата зависит от региона (за 2–4 дня до Ньепи)\, сверь локально.
+LOCATION:Пляжи Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:ogoh-ogoh-20280325@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280325
+DTEND;VALUE=DATE:20280326
+SUMMARY:Огох-огох (Пенгерупукан) — канун Ньепи
+DESCRIPTION:Канун Ньепи и Тавур Касанга. Деревни проносят и сжигают гигантских демонов-огох-огох\, чтобы изгнать зло перед Днём тишины. Самое зрелищное ночное событие года. Масштаб — Денпасар (перекрёсток Чатур Мука)\, ремесло — Убуд. Приходи к вечеру\, дороги перекрывают.
+LOCATION:Денпасар\, Убуд
+END:VEVENT
+BEGIN:VEVENT
+UID:nyepi-20280326@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280326
+DTEND;VALUE=DATE:20280327
+SUMMARY:Ньепи — День тишины (Новый год)
+DESCRIPTION:День тишины\, балийский Новый год по сака. Остров замирает на 24 часа: нет рейсов\, света\, выхода на улицу — даже туристам. Аэропорт закрыт. Сиди на вилле с заранее купленной едой. Ночью при полной темноте — невероятные звёзды. Точную дату на год закрепляют официальным декретом (SKB) ближе к делу\; изредка она сдвигается на сутки от расчёта.
+LOCATION:Весь Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:ngembak-geni-20280327@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280327
+DTEND;VALUE=DATE:20280328
+SUMMARY:Нгембак Гени — день после Ньепи
+DESCRIPTION:Остров оживает после Дня тишины: семьи навещают друг друга\, прощают обиды\, молодёжь устраивает омед-омедан (поцелуйный ритуал) в Сесетане\, Денпасар. Спокойный светлый день.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:odalan-uluwatu-20280328@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280328
+DTEND;VALUE=DATE:20280329
+SUMMARY:Пиодалан Пура Лухур Улувату
+DESCRIPTION:Годовщина храма Улувату на утёсе (цикл 210 дней\, Анггара Каси Медангсиа). Закатный кечак и церемония над океаном. Дату сверь локально перед поездкой.
+LOCATION:Пура Лухур Улувату
+END:VEVENT
+BEGIN:VEVENT
+UID:besakih-turun-kabeh-20280409@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280409
+DTEND;VALUE=DATE:20280410
+SUMMARY:Бхатара Турун Кабех — Бесаких (Пурнама Кадаса)
+DESCRIPTION:Полнолуние 10-го месяца. Бхатара Турун Кабех в Бесаких — крупнейшая церемония материнского храма у подножия Агунга\, тысячи паломников в белом. Главное событие храмового календаря.
+LOCATION:Пура Бесаких
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-krulut-20280422@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280422
+DTEND;VALUE=DATE:20280423
+SUMMARY:Тумпек Крулут — день гамелана и инструментов
+DESCRIPTION:День музыки\, гамелана и искусства (а ещё любви). Инструменты благословляют и играют на них — твоя тема. Лучше всего в деревнях с сильной музыкальной традицией.
+LOCATION:Деревни с гамеланом
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-uye-20280527@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280527
+DTEND;VALUE=DATE:20280528
+SUMMARY:Тумпек Канданг — благословение животных
+DESCRIPTION:День животных. Коров\, свиней и птицу моют\, украшают и благословляют. Тёплый\, фотогеничный деревенский день.
+LOCATION:Деревни по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-wayang-20280701@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280701
+DTEND;VALUE=DATE:20280702
+SUMMARY:Тумпек Ваянг — день театра теней
+DESCRIPTION:День кукол ваянг и театра теней. Считается особым днём\; рождённых в этот день очищают. Иногда показывают ваянг-кулит.
+LOCATION:Деревни\, храмы
+END:VEVENT
+BEGIN:VEVENT
+UID:saraswati-20280722@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280722
+DTEND;VALUE=DATE:20280723
+SUMMARY:Сарасвати — день богини знания
+DESCRIPTION:День богини знания Сарасвати. Благословляют книги и священные тексты\, читать в этот день не принято. Церемонии в школах и храмах\, все в ярких кебая — хорошо для портрета.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:banyu-pinaruh-20280723@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280723
+DTEND;VALUE=DATE:20280724
+SUMMARY:Баньу Пинарух
+DESCRIPTION:Утро после Сарасвати. На рассвете ритуальное омовение в море и источниках\, пьют джаму для очищения тела и ума. Лучшее время — самый ранний свет на восточных пляжах.
+LOCATION:Пляжи\, источники
+END:VEVENT
+BEGIN:VEVENT
+UID:pagerwesi-20280726@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280726
+DTEND;VALUE=DATE:20280727
+SUMMARY:Пагервеси — день духовной защиты
+DESCRIPTION:«Железная ограда» — день духовной защиты и укрепления знания. Особенно мощно на севере\, в Булеленге (Сингараджа)\, где это один из крупнейших праздников года с большими процессиями.
+LOCATION:Север Бали (Булеленг)
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-landep-20280805@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280805
+DTEND;VALUE=DATE:20280806
+SUMMARY:Тумпек Ландеп — благословение металла
+DESCRIPTION:Раньше благословляли крисы и оружие\, теперь машины и байки. Транспорт украшают подношениями из пальмовых листьев — живое\, визуально яркое.
+LOCATION:По всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-wariga-20280909@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20280909
+DTEND;VALUE=DATE:20280910
+SUMMARY:Тумпек Уду — благословение растений
+DESCRIPTION:Тумпек Уду (Пенгатаг) — день деревьев и растений. Подношения у плодовых деревьев\, к стволам привязывают ткани и кладут еду\, прося плодородия.
+LOCATION:Сады\, рисовые поля
+END:VEVENT
+BEGIN:VEVENT
+UID:purnama-kapat-20281003@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+SUMMARY:Пурнама Капат — большое полнолуние
+DESCRIPTION:Полнолуние 4-го месяца (Капат)\, одно из главных в году. Множество одаланов\, храмы особенно полны. Капат считается чистым\, благоприятным месяцем.
+LOCATION:Храмы по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:penampahan-galungan-20281003@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+SUMMARY:Пенампахан Галунган — день подготовки
+DESCRIPTION:Канун Галунгана. Семьи ставят пенджоры (высокие бамбуковые шесты)\, готовят лавар и подношения. К вечеру улицы заполняются пенджорами — золотой час накануне идеален для съёмки.
+LOCATION:Деревни по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:galungan-20281004@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20281004
+DTEND;VALUE=DATE:20281005
+SUMMARY:Галунган — победа добра над злом
+DESCRIPTION:Главный праздник Бали: духи предков возвращаются в дома\, дхарма побеждает адхарму. Пенджоры вдоль каждой улицы. Это деревенское и храмовое событие\, не для бич-клабов. Гуще и красивее всего: Убуд\, Сидемен\, Гианьяр. У храмов — саронг и пояс.
+LOCATION:Убуд\, Сидемен\, Гианьяр
+END:VEVENT
+BEGIN:VEVENT
+UID:kuningan-20281014@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20281014
+DTEND;VALUE=DATE:20281015
+SUMMARY:Кунинган — проводы духов предков
+DESCRIPTION:Закрытие цикла Галунгана: духи возвращаются на небеса. Доминирует жёлтый: жёлтый рис насси кунинг\, щиты тамианг из кокосовых листьев. Церемонии завершают до полудня — иди утром. Тише и нежнее самого Галунгана. В этот же день — Тумпек Кунинган.
+LOCATION:Храмы по всему Бали
+END:VEVENT
+BEGIN:VEVENT
+UID:odalan-uluwatu-20281024@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20281024
+DTEND;VALUE=DATE:20281025
+SUMMARY:Пиодалан Пура Лухур Улувату
+DESCRIPTION:Годовщина храма Улувату на утёсе (цикл 210 дней\, Анггара Каси Медангсиа). Закатный кечак и церемония над океаном. Дату сверь локально перед поездкой.
+LOCATION:Пура Лухур Улувату
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-krulut-20281118@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20281118
+DTEND;VALUE=DATE:20281119
+SUMMARY:Тумпек Крулут — день гамелана и инструментов
+DESCRIPTION:День музыки\, гамелана и искусства (а ещё любви). Инструменты благословляют и играют на них — твоя тема. Лучше всего в деревнях с сильной музыкальной традицией.
+LOCATION:Деревни с гамеланом
+END:VEVENT
+BEGIN:VEVENT
+UID:tumpek-uye-20281223@bali-ru
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20281223
+DTEND;VALUE=DATE:20281224
+SUMMARY:Тумпек Канданг — благословение животных
+DESCRIPTION:День животных. Коров\, свиней и птицу моют\, украшают и благословляют. Тёплый\, фотогеничный деревенский день.
+LOCATION:Деревни по всему Бали
 END:VEVENT
 END:VCALENDAR
